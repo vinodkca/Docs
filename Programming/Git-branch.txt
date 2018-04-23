@@ -1,0 +1,71 @@
+-------------------------------------------------
+TLDR:Git | The Important Parts of Git and Version Control
+
+https://www.youtube.com/watch?v=blcFlS7HhAc
+Check out  the DevMountain coding bootcamp: https://www.DevMountain.com
+
+
+
+git:code and is version control(yesterday and toda)
+github:version control (git) on cloud
+
+
+Resource:
+TLDR: Git | The Important Parts of Git and Version Control Tutorial
+Check out  the DevMountain coding bootcamp: https://www.DevMountain.com
+
+Install git from git-scm.com
+
+Create account on GitHub.com
+Click New Reporistory ( Repo it is just fodler on cloud)
+
+
+Clone  : ability to copy repository from master branch (path of code) Prod(master), test branch $git clone http:/....git -(RC git bash) Use VS Code- Open fodler use Terminal
+Change and you see M(Modified), U (Untracked- repo doe snot know about it)
+$git status
+$git add . ( stage the code)  or $git stage .
+$git status
+$git commit -m 'Added new file' (saving to local version)
+$git push (send it to cloud)
+
+
+--delete all files
+$git stage (adds files to staging area and it is similar to git ad)
+$git Stash(Stash away all changes u made)
+$git stash apply (to get back changes)
+or
+
+$git stash apply stash@{1}also u can create new branch or $git stash pop (removes from list of stash and re applies to working directory adds to branch) 
+or $git stash apply 9applies and still keeps it on the stash and applies to working directory)
+$git stash branch devchange
+$git stash list
+
+
+Stage  :
+Commit : 
+Push   :
+Master :
+Branch : It is anothe rfolder
+new branch
+$git checkout -b dev_example
+$git add.
+$git commit -m "Second place"
+$git push --set-upstream orgin dev_branch
+orther
+$git push
+
+Merge branches
+$git status
+$git merge master ( brings all changes in master and brings it in to dev_branch)
+$git checkout master (check out help to switch branches)//$git checkout dev_branch (check out help to switch branches)
+
+$git merge dev_branch (go to master and pullin the changes from dev_branch, source to destination)
+$git status
+$git push
+
+
+----------
+
+scope creep
+
+Rquirement not gathered properly and new featured need to build which wer not part of project
