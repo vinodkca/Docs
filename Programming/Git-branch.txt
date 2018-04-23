@@ -14,6 +14,8 @@ $git merge master ( brings all changes in master and brings it in to dev_branch)
 $git checkout master (check out help to switch branches)//$git checkout dev_branch (check out help to switch branches)
 
 $git merge dev_branch (go to master and pullin the changes from dev_branch, source to destination)
+or
+$git merge dev_branch master (Dest, Source)
 $git status
 $git push
 -------------------------------------------------
