@@ -69,3 +69,25 @@ $git push
 scope creep
 
 Rquirement not gathered properly and new featured need to build which wer not part of project
+
+--Example>>>>>>>>>>>
+
+
+vinodk@IS-PROG-4712 MINGW32 /c/Git/Docs (dev-branch)
+$ git add Programming/Git-branch.txt
+
+vinodk@IS-PROG-4712 MINGW32 /c/Git/Docs (dev-branch)
+$ git status
+On branch dev-branch
+nothing to commit, working tree clean
+
+vinodk@IS-PROG-4712 MINGW32 /c/Git/Docs (dev-branch)
+$ git push cloud dev-branch
+Counting objects: 4, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.25 KiB | 51.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/vinodkca/Docs.git
+ * [new branch]      dev-branch -> dev-branch
+
