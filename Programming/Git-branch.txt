@@ -1,3 +1,21 @@
+Install git from http://www.git-scm.com
+
+$git checkout -b dev_example
+$git add.
+$git commit -m "Second place"
+$git push --set-upstream orgin dev_branch
+orther
+$git push
+
+
+Merge branches
+$git status
+$git merge master ( brings all changes in master and brings it in to dev_branch)
+$git checkout master (check out help to switch branches)//$git checkout dev_branch (check out help to switch branches)
+
+$git merge dev_branch (go to master and pullin the changes from dev_branch, source to destination)
+$git status
+$git push
 -------------------------------------------------
 TLDR:Git | The Important Parts of Git and Version Control
 
